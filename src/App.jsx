@@ -1,6 +1,20 @@
 import React from 'react';
 import './App.css';
 
+// Import semua assets
+import LinkedinIcon from './assets/Linkedin.svg';
+import InstagramIcon from './assets/Instagram.svg';
+import GmailIcon from './assets/Email.svg';
+import ReactIcon from './assets/React.svg';
+import NextjsIcon from './assets/Next.js.svg';
+import FlutterIcon from './assets/Flutter.svg';
+import GithubIcon from './assets/Github.svg';
+import FigmaIcon from './assets/Figma.svg';
+import LaravelIcon from './assets/laravel.svg';
+import GolangIcon from './assets/golang.svg';
+import ProfileImg from './assets/meGrayscale.png';
+import AboutImg from './assets/MeColour.png';
+
 export default function App() {
   return (
     <div className="container">
@@ -13,13 +27,13 @@ export default function App() {
             <h2>Contact Me</h2>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/muhammad-faruq-898b8b289/?locale=en" target="_blank" rel="noopener noreferrer">
-                <img src="Linkedin.svg" alt="LinkedIn" />
+                <img src={LinkedinIcon} alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mhmfaruq._/" target="_blank" rel="noopener noreferrer">
-                <img src="Instagram.svg" alt="Instagram" />
+                <img src={InstagramIcon} alt="Instagram" />
               </a>
               <a href="mailto:mhmmadfarq7@gmail.com">
-                <img src="gmail.svg" alt="Gmail" />
+                <img src={GmailIcon} alt="Gmail" />
               </a>
             </div>
           </div>
@@ -27,7 +41,7 @@ export default function App() {
 
         <div className="hero-right">
           <div className="profile-card">
-            <img src="BnWPic.png" alt="Muhammad Faruq B. N" className="profile-img" />
+            <img src={ProfileImg} alt="Muhammad Faruq B. N" className="profile-img" />
             <div className="profile-info">
               <div className="info-row"><span className="label">Name</span><span>: Muhammad Faruq B. N</span></div>
               <div className="info-row"><span className="label">Role</span><span>: Designer and Frontend</span></div>
@@ -52,7 +66,7 @@ export default function App() {
         </div>
         <div className="about-card">
           <div className="about-card-inner">
-            <img src="whoAMIPic.png" alt="Faruq" />
+            <img src={AboutImg} alt="Faruq" />
             <h3>Faruq</h3>
             <p>Designer</p>
             <div className="about-tags">
@@ -66,13 +80,13 @@ export default function App() {
       <section className="tech-stack">
         <h3>Tech Stack</h3>
         <div className="tech-grid">
-          <div className="tech-item"><img src="reactIcon.svg" alt="React" /><span>React</span></div>
-          <div className="tech-item"><img src="nextjs.png" alt="Next.js" /><span>Next.js</span></div>
-          <div className="tech-item"><img src="flutter.png" alt="Flutter" /><span>Flutter</span></div>
-          <div className="tech-item"><img src="github.png" alt="Github" /><span>Github</span></div>
-          <div className="tech-item"><img src="editing.png" alt="Figma" /><span>Figma</span></div>
-          <div className="tech-item"><img src="laravel.png" alt="Laravel" /><span>Laravel</span></div>
-          <div className="tech-item"><img src="golang.png" alt="Golang" /><span>Golang</span></div>
+          <div className="tech-item"><img src={ReactIcon} alt="React" /><span>React</span></div>
+          <div className="tech-item"><img src={NextjsIcon} alt="Next.js" /><span>Next.js</span></div>
+          <div className="tech-item"><img src={FlutterIcon} alt="Flutter" /><span>Flutter</span></div>
+          <div className="tech-item"><img src={GithubIcon} alt="Github" /><span>Github</span></div>
+          <div className="tech-item"><img src={FigmaIcon} alt="Figma" /><span>Figma</span></div>
+          <div className="tech-item"><img src={LaravelIcon} alt="Laravel" /><span>Laravel</span></div>
+          <div className="tech-item"><img src={GolangIcon} alt="Golang" /><span>Golang</span></div>
         </div>
       </section>
 
