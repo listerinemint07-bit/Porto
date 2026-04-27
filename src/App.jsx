@@ -13,13 +13,13 @@ export default function App() {
             <h2>Contact Me</h2>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/muhammad-faruq-898b8b289/?locale=en" target="_blank" rel="noopener noreferrer">
-                <img src="Linkedin.png" alt="LinkedIn" />
+                <img src="Linkedin.svg" alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mhmfaruq._/" target="_blank" rel="noopener noreferrer">
-                <img src="Instagram.png" alt="Instagram" />
+                <img src="Instagram.svg" alt="Instagram" />
               </a>
               <a href="mailto:mhmmadfarq7@gmail.com">
-                <img src="gmail.png" alt="Gmail" />
+                <img src="gmail.svg" alt="Gmail" />
               </a>
             </div>
           </div>
