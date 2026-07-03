@@ -289,7 +289,7 @@ export default function App() {
       </main>
 
       <footer className="py-16 text-center border-t border-white/5 mt-32 relative z-10">
-        <p className="text-white/20 text-xs uppercase font-bold tracking-[0.5em]">© 2024 Muhammad Faruq • Made with Passion</p>
+        <p className="text-white/20 text-xs uppercase font-bold tracking-[0.5em]">© Muhammad Faruq • Made with Passion</p>
       </footer>
     </div>
   );
